@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="13.5"
+        android:translateY="13.5">
+        <!-- Wallet Base Body -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M24,32 C20.686,32 18,34.686 18,38 L18,74 C18,77.314 20.686,80 24,80 L84,80 C87.314,80 90,77.314 90,74 L90,38 C90,34.686 87.314,32 84,32 Z" />
+        <!-- Wallet Top Flap / Pocket -->
+        <path
+            android:fillColor="#059669"
+            android:pathData="M24,32 L84,32 C87.314,32 90,34.686 90,38 L90,44 L18,44 L18,38 C18,34.686 20.686,32 24,32 Z" />
+        <!-- Wallet Clasp / Badge -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M70,50 L88,50 C90.209,50 92,51.791 92,54 L92,62 C92,64.209 90.209,66 88,66 L70,66 C67.791,66 66,64.209 66,62 L66,54 C66,51.791 67.791,50 70,50 Z" />
+        <!-- Clasp Button -->
+        <path
+            android:fillColor="#FEF3C7"
+            android:pathData="M77,58 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+        <!-- Upward Growth Arrow Emblem -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M32,66 L46,52 L54,60 L70,44 L70,52 L74,52 L74,38 L60,38 L60,42 L67,42 L54,55 L46,47 L29,64 Z" />
+    </group>
+</vector>

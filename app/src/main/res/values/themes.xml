@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme for Jetpack Compose and Modern UI -->
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:navigationBarColor">#0F172A</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorPrimary">@color/accent_emerald</item>
+    </style>
+
+    <!-- Theme specifically tailored for classic Java/XML Screens -->
+    <style name="Theme.ExpenseTracker.LegacyScreen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:navigationBarColor">#F8FAFC</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:colorPrimary">@color/accent_emerald</item>
+        <item name="android:colorAccent">@color/accent_emerald</item>
+    </style>
+</resources>

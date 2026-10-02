@@ -1,0 +1,6 @@
+{
+  "name": "ExpenseFlow",
+  "description": "Hybrid Android expense tracker featuring Compose, Java XML activities, Room database persistence, and spending analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
