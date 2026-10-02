@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 760" width="380" height="760">
+  <!-- Device Frame -->
+  <rect width="380" height="760" rx="36" fill="#0F172A"/>
+  <rect x="6" y="6" width="368" height="748" rx="30" fill="#F8FAFC"/>
+
+  <!-- Status Bar -->
+  <rect x="6" y="6" width="368" height="34" rx="30" fill="#0F172A"/>
+  <text x="32" y="26" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">9:41</text>
+  <circle cx="330" cy="22" r="3" fill="#FFFFFF"/>
+  <rect x="340" y="16" width="18" height="10" rx="3" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Header Toolbar (Java Activity) -->
+  <rect x="6" y="40" width="368" height="54" fill="#0F172A"/>
+  <text x="24" y="73" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600">←</text>
+  <text x="54" y="73" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">Transaction History</text>
+  
+  <rect x="272" y="55" width="86" height="24" rx="6" fill="#FEE2E2"/>
+  <text x="315" y="71" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Java + XML</text>
+
+  <!-- Filter Card -->
+  <rect x="6" y="94" width="368" height="96" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="18" y="104" width="344" height="38" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="32" y="128" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">🔍 Search transactions...</text>
+
+  <rect x="18" y="148" width="344" height="34" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="32" y="170" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Category: All Categories</text>
+  <text x="344" y="170" fill="#64748B" font-size="11">▼</text>
+
+  <!-- List Header -->
+  <text x="20" y="214" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Transactions (8)</text>
+  <rect x="264" y="198" width="98" height="26" rx="6" fill="#10B981"/>
+  <text x="313" y="215" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">+ New Record</text>
+
+  <!-- ListView Items (item_expense_legacy.xml) -->
+  <!-- Row 1 -->
+  <rect x="18" y="232" width="344" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="30" y="244" width="42" height="42" rx="10" fill="#D1FAE5"/>
+  <text x="51" y="271" font-size="20" text-anchor="middle">💰</text>
+  <text x="82" y="260" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Monthly Tech Salary</text>
+  <text x="82" y="278" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Salary • Oct 01, 2026</text>
+  <text x="316" y="261" fill="#059669" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">+$4,850.00</text>
+  <text x="316" y="278" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">Bank Transfer</text>
+  <text x="342" y="269" fill="#94A3B8" font-size="14">🗑</text>
+
+  <!-- Row 2 -->
+  <rect x="18" y="306" width="344" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="30" y="318" width="42" height="42" rx="10" fill="#FEE2E2"/>
+  <text x="51" y="345" font-size="20" text-anchor="middle">💡</text>
+  <text x="82" y="334" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Monthly Apartment Rent</text>
+  <text x="82" y="352" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Bills • Sep 29, 2026</text>
+  <text x="316" y="335" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">-$1,250.00</text>
+  <text x="316" y="352" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">Bank Transfer</text>
+  <text x="342" y="343" fill="#94A3B8" font-size="14">🗑</text>
+
+  <!-- Row 3 -->
+  <rect x="18" y="380" width="344" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="30" y="392" width="42" height="42" rx="10" fill="#FEE2E2"/>
+  <text x="51" y="419" font-size="20" text-anchor="middle">🍔</text>
+  <text x="82" y="408" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Whole Foods Groceries</text>
+  <text x="82" y="426" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Food • Sep 30, 2026</text>
+  <text x="316" y="409" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">-$142.75</text>
+  <text x="316" y="426" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">Credit Card</text>
+  <text x="342" y="417" fill="#94A3B8" font-size="14">🗑</text>
+
+  <!-- Row 4 -->
+  <rect x="18" y="454" width="344" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="30" y="466" width="42" height="42" rx="10" fill="#D1FAE5"/>
+  <text x="51" y="493" font-size="20" text-anchor="middle">💰</text>
+  <text x="82" y="482" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Freelance UI Consulting</text>
+  <text x="82" y="500" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Income • Sep 27, 2026</text>
+  <text x="316" y="483" fill="#059669" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">+$750.00</text>
+  <text x="316" y="500" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">UPI / Online</text>
+  <text x="342" y="491" fill="#94A3B8" font-size="14">🗑</text>
+
+  <!-- Row 5 -->
+  <rect x="18" y="528" width="344" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="30" y="540" width="42" height="42" rx="10" fill="#FEE2E2"/>
+  <text x="51" y="567" font-size="20" text-anchor="middle">🛍️</text>
+  <text x="82" y="556" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Winter Jacket &amp; Boots</text>
+  <text x="82" y="574" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Shopping • Sep 25, 2026</text>
+  <text x="316" y="557" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">-$189.90</text>
+  <text x="316" y="574" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">Credit Card</text>
+  <text x="342" y="565" fill="#94A3B8" font-size="14">🗑</text>
+
+  <!-- Row 6 -->
+  <rect x="18" y="602" width="344" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="30" y="614" width="42" height="42" rx="10" fill="#FEE2E2"/>
+  <text x="51" y="641" font-size="20" text-anchor="middle">🚗</text>
+  <text x="82" y="630" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Subway Pass &amp; Fuel</text>
+  <text x="82" y="648" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Transport • Sep 29, 2026</text>
+  <text x="316" y="631" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">-$58.40</text>
+  <text x="316" y="648" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">Debit Card</text>
+  <text x="342" y="639" fill="#94A3B8" font-size="14">🗑</text>
+</svg>

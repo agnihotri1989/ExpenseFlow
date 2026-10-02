@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 760" width="380" height="760">
+  <defs>
+    <linearGradient id="an-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Device Frame -->
+  <rect width="380" height="760" rx="36" fill="#0F172A"/>
+  <rect x="6" y="6" width="368" height="748" rx="30" fill="#F8FAFC"/>
+
+  <!-- Status Bar -->
+  <rect x="6" y="6" width="368" height="34" rx="30" fill="#0F172A"/>
+  <text x="32" y="26" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">9:41</text>
+  <circle cx="330" cy="22" r="3" fill="#FFFFFF"/>
+  <rect x="340" y="16" width="18" height="10" rx="3" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Top App Bar -->
+  <rect x="6" y="40" width="368" height="68" fill="#0F172A"/>
+  <text x="24" y="70" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">Financial Analytics</text>
+  <text x="24" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Powered by AnalyticsViewModel (@HiltViewModel)</text>
+  <rect x="256" y="60" width="102" height="26" rx="8" fill="#F59E0B" opacity="0.25"/>
+  <rect x="256" y="60" width="102" height="26" rx="8" fill="none" stroke="#F59E0B" stroke-width="1"/>
+  <text x="307" y="77" fill="#F59E0B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Partial Hilt DI</text>
+
+  <!-- Net Savings Rate Card -->
+  <rect x="20" y="118" width="340" height="126" rx="18" fill="url(#an-grad)"/>
+  <text x="36" y="142" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="1">NET SAVINGS RATE</text>
+  <rect x="242" y="130" width="102" height="24" rx="8" fill="#059669" opacity="0.4"/>
+  <text x="293" y="146" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">73.0% Saved</text>
+  
+  <text x="36" y="180" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">+$4,087.45</text>
+  
+  <!-- Savings progress bar -->
+  <rect x="36" y="206" width="308" height="8" rx="4" fill="#334155"/>
+  <rect x="36" y="206" width="225" height="8" rx="4" fill="#10B981"/>
+
+  <!-- Top Spending Area Card -->
+  <rect x="20" y="254" width="340" height="74" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="32" y="268" width="46" height="46" rx="12" fill="#FEE2E2"/>
+  <text x="55" y="297" font-size="22" text-anchor="middle">📈</text>
+  <text x="90" y="286" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Top Spending Area</text>
+  <text x="90" y="306" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800">Bills &amp; Utilities</text>
+  <text x="344" y="288" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" text-anchor="end">-$1,250.00</text>
+  <text x="344" y="306" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="end">82% of expenses</text>
+
+  <!-- Section Title -->
+  <text x="22" y="356" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">📊 Spending by Category</text>
+
+  <!-- Category 1: Bills -->
+  <rect x="20" y="370" width="340" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="394" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Bills &amp; Utilities</text>
+  <text x="344" y="394" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="end">$1,250.00 (82.6%)</text>
+  <rect x="36" y="408" width="308" height="6" rx="3" fill="#F1F5F9"/>
+  <rect x="36" y="408" width="254" height="6" rx="3" fill="#F43F5E"/>
+
+  <!-- Category 2: Shopping -->
+  <rect x="20" y="444" width="340" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="468" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Shopping</text>
+  <text x="344" y="468" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="end">$189.90 (12.5%)</text>
+  <rect x="36" y="482" width="308" height="6" rx="3" fill="#F1F5F9"/>
+  <rect x="36" y="482" width="40" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Category 3: Food -->
+  <rect x="20" y="518" width="340" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="542" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Food &amp; Dining</text>
+  <text x="344" y="542" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="end">$142.75 (9.4%)</text>
+  <rect x="36" y="556" width="308" height="6" rx="3" fill="#F1F5F9"/>
+  <rect x="36" y="556" width="30" height="6" rx="3" fill="#059669"/>
+
+  <!-- Category 4: Health -->
+  <rect x="20" y="592" width="340" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="36" y="616" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Health &amp; Wellness</text>
+  <text x="344" y="616" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="end">$95.00 (6.3%)</text>
+  <rect x="36" y="630" width="308" height="6" rx="3" fill="#F1F5F9"/>
+  <rect x="36" y="630" width="20" height="6" rx="3" fill="#3B82F6"/>
+
+  <!-- Bottom Navigation Bar -->
+  <rect x="6" y="700" width="368" height="54" rx="20" fill="#0F172A"/>
+  <text x="50" y="732" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">Dashboard</text>
+  <circle cx="50" cy="716" r="4" fill="#94A3B8"/>
+  
+  <text x="145" y="732" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Analytics</text>
+  <circle cx="145" cy="716" r="4" fill="#10B981"/>
+
+  <text x="240" y="732" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Java Add</text>
+  <circle cx="240" cy="716" r="4" fill="#10B981"/>
+
+  <text x="330" y="732" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">Java History</text>
+  <circle cx="330" cy="716" r="4" fill="#94A3B8"/>
+</svg>
